@@ -498,3 +498,7 @@ pyrightconfig.json
 # EXTRA for WSL: https://linuxbeast.com/windows-subsystem/understanding-and-managing-zone-identifier-files-in-wsl-on-windows-10-and-windows-11/
 
 **/*Zone.Identifier
+
+# uncompressed archives
+prime_pairs-100e6plus1_200e6/
+prime_pairs-1_100e6/
