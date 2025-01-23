@@ -77,7 +77,7 @@ The code was written and tested on a system with the following specifications:
 
 **Software:** GP/PARI CALCULATOR Version 2.15
 
-### Software Installation Steps:
+### Software Installation
 
 ```bash
 $ sudo apt install build-essential libreadline-dev libgmp3-dev bison 
