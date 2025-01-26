@@ -19,9 +19,9 @@ code/
 
 This directory consists of all the PARI/GP scripts used. 
 
-- `combine_vectors.gp` combines the smaller (primitive element) vectors into a bigger one using PARI's `concat` function.
+- `combine_vectors.gp` combines the smaller (primitive element) vectors into a bigger one using PARI's [`concat`](https://pari.math.u-bordeaux.fr/dochtml/html/Vectors__matrices__linear_algebra_and_sets.html#concat) function.
 - `prime_pairs.gp` is an implementation of our algorithm from the paper that reads the precomputed vector of primitive elements and then searches for $(k,k')$-prime pairs in parallel for $(k,k')\in \{(m,n), (m,n+1), (m+1,n), (m+1,n+1)\}$ where $2 \leq m \leq n \leq 51$. 
-- `primitive_elements.gp` runs PARI's `znprimroot` function in parallel to compute desired length vectors of primitive elements.
+- `primitive_elements.gp` runs PARI's [`znprimroot`](https://pari.math.u-bordeaux.fr/dochtml/html-stable/Arithmetic_functions.html#znprimroot) function in parallel to compute desired length vectors of primitive elements.
 
 ### Data
 
