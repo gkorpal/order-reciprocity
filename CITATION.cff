@@ -1,0 +1,27 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: On pairs of primes with small order reciprocity
+message: >-
+  If you use this dataset, please cite it using the metadata
+  from this file.
+type: dataset
+authors:
+  - given-names: Craig
+    family-names: Costello
+    email: craig.costello@qut.edu.au
+    affiliation: Queensland University of Technology
+    orcid: 'https://orcid.org/0000-0001-5423-7714'
+  - given-names: Gaurish
+    family-names: Korpal
+    email: gkorpal@arizona.edu
+    affiliation: University of Arizona
+    orcid: 'https://orcid.org/0000-0003-2452-6165'
+repository-code: 'https://github.com/gkorpal/order-reciprocity'
+abstract: >-
+  This repository contains the implementation of the
+  algorithms and the results of the computations described
+  in the paper.
+license: MIT
+date-released: '2025-01-30'
