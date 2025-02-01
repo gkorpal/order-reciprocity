@@ -2,7 +2,7 @@
 
 This repository contains the implementation of the algorithms and the results of the computations described in the paper.
 
-**arXiv:** [Link to the paper]
+**ePrint:** [2025/150](https://eprint.iacr.org/2025/150)
 
 **Authors:** Craig Costello and Gaurish Korpal
 
