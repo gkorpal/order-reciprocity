@@ -98,7 +98,7 @@ $ sudo make install
 Copy the file `pari/misc/gprc.dft` to `$HOME/.gprc`
 
 ```
-// minimal housekeeping
+\\ minimal housekeeping
 \\ Limit output of commands to first 40 lines to avoid terminal 
 \\ choking on thousands of lines output.
 lines = 40
@@ -106,7 +106,7 @@ lines = 40
 \\ Save GP history between sessions.
 histfile = "~/.gp_history"
 
-// total memory allocated = parisize + (nbthreads x threadsize)
+\\ total memory allocated = parisize + (nbthreads x threadsize)
 \\ Set PARI typical stack size to 40 Mbytes = 4*10^7 bytes (will grow as
 \\ needed, up to parisizemax)
 parisize = 40M
@@ -123,7 +123,7 @@ parisizemax = 64G
 \\ Limit PARI threads stack size to 100 Mbytes = 10^8 bytes
 threadsizemax = 10G
 
-// GP startup operations
+\\ GP startup operations
 \\ GP precomputes a list of all primes less than primelimit at initialization time
 \\ can build fast sieves on demand to quickly iterate over primes up to the square of primelimit.
 \\ Biggest precomputed prime (= precprime(10^6))
